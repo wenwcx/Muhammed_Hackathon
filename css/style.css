@@ -1,0 +1,225 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.First{
+  font-size: 25px;
+}
+.Second{
+  font-size: 25px;
+  width: 80%;
+}
+.Third{
+  width: 80%;
+  font-size: 25px;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(18, 36, 40, 0.819);
+}
+.sidebar header {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+/* .content{
+  width: 80% !important;
+} */
+
+body {
+  background-color: rgba(18, 36, 40, 0.819);
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.head {
+  font-size: 40px;
+  display: flex;
+  margin-left: 310px;
+}
+nav {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Facts {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 250px;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.Facts span {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  font-size: 24px;
+}
+.container span {
+  margin-left: 10px;
+  color: white;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.container span img {
+  margin-left: 15px;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.h1 {
+  margin-left: 100px;
+}
+.section1 h1 {
+  color: white;
+  width: 1000px;
+  height: 200px;
+  margin-top: 20px;
+}
+.section1-Trusted {
+  color: #4e5a65;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.section1-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.logo {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 350px;
+}
+.section-1span {
+  color: white;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 40px;
+}
+.statistica {
+  margin-top: 40px;
+  margin-left: 400px;
+}
+.Biography {
+  margin-left: 400px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Facts{
+  margin-left: 100px;
+}
+.section2 {
+  background: #1d2830;
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.footer_container span {
+  color: #fff;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 100% */
+}
+.footer_container p {
+  color: #fff;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  margin: 10px 0;
+}
+.footer_container div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.footer_container img{
+ margin: 10px 0;
+}
+.ufooter{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.section3{
+  display: flex;
+  width: 100%;
+  border-top: 1px solid white;
+  justify-content: space-around;
+  background: #1D2830;
+}
+.ufooter span{
+  color: var(--text-gray-300, #D9DBE1);
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 100% */
+}
